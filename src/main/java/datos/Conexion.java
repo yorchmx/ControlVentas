@@ -18,8 +18,8 @@ public class Conexion {
         return ds;
     }
     
-    public static Connection getConection() throws SQLException{
-        return getDataSource().getConnectio();
+    public static Connection getConnection() throws SQLException{
+        return getDataSource().getConnection();
     }
     
     public static void close(ResultSet rs){
