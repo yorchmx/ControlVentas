@@ -19,5 +19,5 @@ public class ServletControlador extends HttpServlet{
         request.setAttribute("clientes", clientes);
         request.getRequestDispatcher("clientes.jsp").forward(request, response);
     }
-    
+         
 }
