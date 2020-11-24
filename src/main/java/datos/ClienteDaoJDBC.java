@@ -41,7 +41,7 @@ public class ClienteDaoJDBC {
                 double saldo = rs.getDouble("saldo");
 
                 cliente = new Cliente(idCliente, nombre, apellido, email, telefono, saldo);
-                cliente.add(cliente);
+               
             }
         } catch (SQLException ex) {
             ex.printStackTrace(System.out);
