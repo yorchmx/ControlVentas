@@ -13,12 +13,18 @@
         <title>Control de Ventas</title>
     </head>
     <body>
-        <h1>Control de Ventas</h1>
-        <ul>
-            <c:forEach var="cliente" items="${clientes}">
-                <li>${cliente.idCliente} ${cliente.nombre} ${cliente.apellido} ${cliente.saldo}</li>
-                </c:forEach>
-        </ul>
+        
+        <!-- Cabecero -->
+        <jsp:include page="WEB-INF/paginas/comunes/cabecero.jsp"/>
+        
+        <!-- Botones de navegación -->
+        <jsp:include page="WEB-INF/paginas/comunes/botonesNavegacion.jsp"/>
+        
+        <!-- Listado clientes -->
+        <jsp:include page="WEB-INF/paginas/cliente/listadoClientes.jsp"/>
+        
+        <!-- Pie de pagina -->
+        <jsp:include page="WEB-INF/paginas/comunes/piePagina.jsp"/>
 
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
