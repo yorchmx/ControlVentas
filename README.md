@@ -16,9 +16,13 @@ Arquitectura:
 
 La arquitectuta de la aplicación es la siguiente:
 
-
+- Cliente
+- Petición HTTP
+- Servidor
+- Servidor BD
 
 b. Tabla de contenidos (ToC) con enlaces o a la sección wiki dentro del repositorio o algún medio externo como ReadTheDocs.io
+
 
 
 2. Requerimientos:
