@@ -1,6 +1,21 @@
 Generar resumen ejecutivo que cuente con los siguientes elementos en el archivo README.md dentro del repositorio:
 Descripción, problema identificado, solución, arquitectura
+Descripción:
+
+
+Problema identificado:
+
+
+Solución:
+
+
+Arquitectura:
+
+
+
 Tabla de contenidos (ToC) con enlaces o a la sección wiki dentro del repositorio o algún medio externo como ReadTheDocs.io
+
+
 Requerimientos:
 Servidores de aplicación, web, bases de datos, etc.
 Paquetes adicionales.
