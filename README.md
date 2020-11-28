@@ -6,11 +6,15 @@ Descripción:
 
 Problema identificado:
 
+Los empleados de banquetes del Club France al realizar eventos, venden boletos y la relación de ventas la hacen en Excel y las hacen en varios archivos, por lo cual aveces propicia que se duplique la información. 
 
 Solución:
 
+Se plantea desarrollar una aplicación web la cual por medio de un formulario permita almacenar en una base de datos MySql o PostgreSQL la información de las ventas para el evento.
 
 Arquitectura:
+
+La arquitectuta de la aplicación es la siguiente:
 
 
 
